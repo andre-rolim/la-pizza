@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Main from "./Components/Main";
 import MaisVendidas from "./Components/MostSales";
+import Sobre from "./Components/Sobre";
 
 const MainContainer = styled.section`
   width: 100vw;
@@ -9,6 +10,14 @@ const MainContainer = styled.section`
   max-width: 1440px;
   display: flex;
   flex-direction: column;
+
+  footer {
+    padding: 30px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
 `;
 
 function App() {
@@ -16,6 +25,8 @@ function App() {
     <MainContainer>
       <Main />
       <MaisVendidas />
+      <Sobre />
+      <footer>TODOS OS DIREITOS RESERVADOS</footer>
     </MainContainer>
   );
 }
