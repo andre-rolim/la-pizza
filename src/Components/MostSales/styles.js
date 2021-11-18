@@ -99,8 +99,12 @@ export const Pizzas = styled.div`
     flex-wrap: wrap;
     ul {
       width: 50%;
-      flex-wrap: wrap;
-      margin-bottom: 90px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    ul {
+      width: 70%;
     }
   }
 `;
@@ -136,6 +140,10 @@ export const Cogumelo = styled.figure`
   @media only screen and (max-width: 750px) {
     right: 0;
   }
+
+  @media only screen and (max-width: 350px) {
+    top: 150px;
+  }
 `;
 
 export const Peixe = styled.figure`
@@ -152,6 +160,11 @@ export const Peixe = styled.figure`
     left: 120px;
     top: 10px;
   }
+
+  @media only screen and (max-width: 350px) {
+    top: -20px;
+    left: 120px;
+  }
 `;
 
 export const Folha = styled.figure`
@@ -163,12 +176,21 @@ export const Folha = styled.figure`
     left: 0px;
     bottom: 650px;
   }
+
+  @media only screen and (max-width: 350px) {
+    left: 200px;
+    bottom: 700px;
+  }
 `;
 
 export const Pimenta = styled.figure`
   position: absolute;
   left: 0;
   bottom: -140px;
+
+  @media only screen and (max-width: 350px) {
+    bottom: -70px;
+  }
 `;
 
 export const Tomate = styled.figure`

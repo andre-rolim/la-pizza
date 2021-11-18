@@ -16,6 +16,12 @@ export const Container = styled.div`
     line-height: 12px;
     color: #fff;
   }
+
+  @media only screen and (max-width: 350px) {
+    span {
+      font-size: 80px;
+    }
+  }
 `;
 
 export const SpanYellow = styled.span`

@@ -24,6 +24,14 @@ export const Restaurante = styled.figure`
     left: 0;
     margin: 0 auto;
   }
+
+  @media only screen and (max-width: 450px) {
+    text-align: center;
+    img {
+      max-width: 90%;
+      width: 100vw;
+    }
+  }
 `;
 
 export const Pizza = styled.figure`
@@ -115,6 +123,18 @@ export const Text = styled.div`
 
   @media only screen and (max-width: 750px) {
     margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 350px) {
+    max-width: 349px;
+    width: 100%;
+    text-align: center;
+    button {
+      margin: 0 auto;
+    }
+    span {
+      margin: 0 auto;
+    }
   }
 `;
 
