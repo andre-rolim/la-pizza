@@ -125,7 +125,7 @@ export const Text = styled.div`
     margin: 0 auto;
   }
 
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 380px) {
     max-width: 349px;
     width: 100%;
     text-align: center;

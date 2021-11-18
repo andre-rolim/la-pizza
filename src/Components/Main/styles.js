@@ -17,7 +17,7 @@ export const Container = styled.div`
     color: #fff;
   }
 
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 380px) {
     span {
       font-size: 80px;
     }
